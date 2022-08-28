@@ -53,7 +53,7 @@ bar_chart = px.bar(df_grouped,
 st.plotly_chart(bar_chart)
 
 col1, col2 = st.columns(2)
-image = Image.open("images/survey.png")
+image = Image.open("images/Survey.png")
 col1.image(image,
         caption="__",
         use_column_width=True)
